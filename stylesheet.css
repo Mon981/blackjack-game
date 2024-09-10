@@ -27,8 +27,8 @@ body{
         margin: 60px auto;
         width: 45vw;
         height: 70vh;
-        background-color: rgb(39, 85, 38, 30%);
-        border:6px, solid,  #BC8533ff;
+        background-color: rgba(39, 85, 38, 30%);
+        border:6px solid  #BC8533ff;
         border-radius: 30px;
        
     }
@@ -43,8 +43,8 @@ body{
         margin: 60px auto;
         width: 55vw;
         height: 70vh;
-        background-color: rgb(39, 85, 38, 30%);
-        border:6px, solid,  #BC8533ff;
+        background-color: rgba(39, 85, 38, 30%);
+        border:6px solid  #BC8533ff;
         border-radius: 30px;
        
     }
@@ -60,8 +60,8 @@ body{
         margin: 60px auto;
         width: 90vw;
         height: 70vh;
-        background-color: rgb(39, 85, 38, 30%);
-        border:6px, solid,  #BC8533ff;
+        background-color: rgba(39, 85, 38, 30%);
+        border:6px solid  #BC8533ff;
         border-radius: 30px;
        
     }
