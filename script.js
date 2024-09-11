@@ -4,7 +4,6 @@ let card= 0;
 let a = 0;
 let total=0;
 let playing = false;
-let cards= [];
 let cardsEl = document.getElementById("cards-el")
 let totalEl = document.getElementById("total-el")
 let messageEl = document.getElementById("message-el")
@@ -22,7 +21,6 @@ function startGame(){
         reset()
         firstCard = getRandomValue()
         secondCard = getRandomValue()
-        cards.push(firstCard,secondCard)
         cardsEl.textContent += firstCard + " - " + secondCard
         total += firstCard + secondCard   
         totalEl.textContent += total;
@@ -36,7 +34,6 @@ function startGame(){
 function newCard(){
     if (playing === true){
         card = getRandomValue()
-        cards.push(card)
         cardsEl.textContent += " - " + card
         total += card
         totalEl.textContent = "Total: " + total
@@ -44,7 +41,6 @@ function newCard(){
     }
     
 }
-h2.setAttribute('style', 'white-space: pre;');
 function result(){
     if (total < 21){
         messageEl.textContent = "Another card?"
@@ -64,7 +60,6 @@ function result(){
     }
 }
 function reset(){
-    cards= []
     total = 0
     cardsEl.textContent="Cards: "
     totalEl.textContent="Total: "
